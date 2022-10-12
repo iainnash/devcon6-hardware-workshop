@@ -1,0 +1,6 @@
+c
+c-simple
+node_modules
+*.png
+*.bmp
+.DS_Store
