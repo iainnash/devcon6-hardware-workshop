@@ -1,10 +1,11 @@
 DEST=/Volumes/CIRCUITPY
+PY_DIR=../../py/src
 
-cp ../../slideshow.py $DEST/ 
-cp ../../qmi8658.py $DEST/ 
-cp ../../gc9a01.py $DEST/ 
-cp ../../code.py $DEST/ 
-cp -r ../../lib  $DEST/
+cp $PY_DIR/slideshow.py $DEST/ 
+cp $PY_DIR/qmi8658.py $DEST/ 
+cp $PY_DIR/gc9a01.py $DEST/ 
+cp $PY_DIR/code.py $DEST/ 
+cp -r $PY_DIR/lib  $DEST/
 
 echo 'setting up images'
 mkdir -p $DEST/img/slides
