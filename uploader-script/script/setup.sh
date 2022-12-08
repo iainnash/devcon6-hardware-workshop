@@ -11,5 +11,5 @@ echo 'setting up images'
 mkdir -p $DEST/img/slides
 echo 'copy zorb'
 cp ./zorb.bmp $DEST/img
-echo 'copy poaps'
-cp ./poap*.bmp $DEST/img/slides
+echo "copy $1"
+cp ./$1*.bmp $DEST/img/slides
