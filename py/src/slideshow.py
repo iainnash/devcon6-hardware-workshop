@@ -31,7 +31,7 @@ reset = board.GP12
 display_bus = displayio.FourWire(spi, command=dc, chip_select=cs, reset=reset)
 
 bl = board.GP25
-display = GC9A01(display_bus, auto_brightness=False, auto_refresh=False, width=240, height=240, backlight_pin=bl)
+display = GC9A01(display_bus, width=240, height=240, backlight_pin=bl)
 
 display.brightness = 0
 

@@ -9,11 +9,11 @@
       cx="0"
       cy="0%"
       >
-      <stop offset="15.62%" stop-color="hsl(119, 82%, 94%)" />
-      <stop offset="39.58%" stop-color="hsl(120, 87%, 81%)" />
-      <stop offset="72.92%" stop-color="hsl(126, 91%, 67%)" />
-      <stop offset="90.63%" stop-color="hsl(128, 93%, 62%)" />
-      <stop offset="100%" stop-color="hsl(129, 93%, 62%)" />
+      <stop offset="15.62%" stop-color="hsl(229, 72%, 85%)" />
+      <stop offset="39.58%" stop-color="hsl(232, 73%, 80%)" />
+      <stop offset="72.92%" stop-color="hsl(250, 75%, 74%)" />
+      <stop offset="90.63%" stop-color="hsl(256, 80%, 68%)" />
+      <stop offset="100%" stop-color="hsl(259, 82%, 68%)" />
     </radialGradient>
   </defs>
   <g transform="translate(5,5)">
